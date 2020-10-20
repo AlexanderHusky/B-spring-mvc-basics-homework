@@ -15,7 +15,7 @@ configurations {
 }
 
 repositories {
-  mavenCentral()
+  maven{ url 'https://maven.aliyun.com/repository/public'}  // 修改2
 }
 
 dependencies {
